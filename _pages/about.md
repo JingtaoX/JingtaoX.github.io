@@ -13,6 +13,16 @@ My interests primarily lie in the areas of software engineering and programming 
 
 # Research
 
+[**ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers**](https://arxiv.org/pdf/2305.14591.pdf) <br>
+Kexun Zhang, Danqing Wang, Jingtao Xia, William Yang Wang, Lei Li
+ <br>
+*NeurIPS, 2023* [[Source](https://github.com/zkx06111/ALGO)]
+
+
+[**Generalizable Synthesis Through Unification.**](http://jingtaox.github.io/files/OOPSLA21.pdf) <br>
+Ruyi Ji, Jingtao Xia, Yingfei Xiong, Zhenjiang Hu. <br>
+*OOPSLA 2021* [[Source](https://github.com/jiry17/PolyGen)]
+
 # Teaching
 * CS9: Intermediate Python ([Fall'23](https://ucsb-cs9.github.io/f23/), [Winter'24](https://ucsb-cs9.github.io/w24/))
 * CS160: Translation of Computer Programs ([Spring'23](https://github.com/fredfeng/CS160/))
