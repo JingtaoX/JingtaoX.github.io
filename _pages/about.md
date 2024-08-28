@@ -16,6 +16,16 @@ My interests primarily lie in the areas of software engineering and programming 
 
 # Research
 
+**Refinement Types for Visualization** <br>
+Jingtao Xia, Junrui Liu, Nicholas Brown, Yanju Chen, Yu Feng <br>
+*(To Appear)	ASE'24*
+
+**There and Back Again: A Netlist's Tale with Much Egraphin'** <br>
+Gus Henry Smith, Zachary D Sisco, Thanawat Techaumnuaiwit, Jingtao Xia, Vishal Canumalla, Andrew Cheung, Zachary Tatlock, Chandrakana Nandi, Jonathan Balkind 
+<br>
+*LATTE ’24* [[paper](https://capra.cs.cornell.edu/latte24/paper/8.pdf)]
+
+
 **ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers** <br>
 Kexun Zhang, Danqing Wang, Jingtao Xia, William Yang Wang, Lei Li
  <br>
