@@ -13,6 +13,7 @@ I am a second-year PhD student in the Computer Science department at UC Santa Ba
 
 My interests primarily lie in the areas of software engineering and programming languages. At present, I am focused on utilizing these techniques to solve problems related to hardware.
 
+My name is pronounced as [jin tow sshyah].
 
 # Research
 
