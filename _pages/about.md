@@ -9,11 +9,12 @@ redirect_from:
 ---
 
 # About me
-I am a second-year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor [Ben Hardekopf](https://sites.cs.ucsb.edu/~benh/) and [Jonathan Balkind](https://jbalkind.github.io/). I obtained my Bachelor degrees in Computer Science from Peking University and was lucky to work with Professor [Yingfei Xiong](https://xiongyingfei.github.io/) as a member of [PKU-PLL](https://pl.cs.pku.edu.cn/en/).
+I am a third-year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor [Ben Hardekopf](https://sites.cs.ucsb.edu/~benh/) and [Jonathan Balkind](https://jbalkind.github.io/). I obtained my Bachelor degrees in Computer Science from Peking University and was lucky to work with Professor [Yingfei Xiong](https://xiongyingfei.github.io/) as a member of [PKU-PLL](https://pl.cs.pku.edu.cn/en/).
 
-My interests primarily lie in the areas of software engineering and programming languages. At present, I am focused on utilizing these techniques to solve problems related to hardware.
+My interests primarily lie in the areas of software engineering and programming languages. 
+<!-- At present, I am focused on utilizing these techniques to solve problems related to hardware. -->
 
-My name is pronounced as [jin tow sshyah].
+<!-- My name is pronounced as [jin tow sshyah]. -->
 
 # Research
 
