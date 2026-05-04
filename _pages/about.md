@@ -16,7 +16,7 @@ At present, I am focused on utilizing these techniques to solve problems related
 
 <!-- My name is pronounced as [jin tow sshyah]. -->
 
-# Education
+<!-- # Education
 <div class="education-list">
   <div class="education-item">
     <img class="education-logo" src="/images/ucsb.gif" alt="UC Santa Barbara logo">
@@ -35,7 +35,7 @@ At present, I am focused on utilizing these techniques to solve problems related
       <div class="education-advisor">Advisor: <a href="https://xiongyingfei.github.io/">Yingfei Xiong</a></div>
     </div>
   </div>
-</div>
+</div> -->
 
 # Research
 **Fungible Memories for Automated Technology Mapping and Re-targeting** <br>
