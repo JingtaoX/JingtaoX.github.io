@@ -9,48 +9,69 @@ redirect_from:
 ---
 
 # About me
-I am a third-year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor [Ben Hardekopf](https://sites.cs.ucsb.edu/~benh/) and [Jonathan Balkind](https://jbalkind.github.io/). I obtained my Bachelor degrees in Computer Science from Peking University and was lucky to work with Professor [Yingfei Xiong](https://xiongyingfei.github.io/) as a member of [PKU-PLL](https://pl.cs.pku.edu.cn/en/).
+I am a 4-th year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor [Ben Hardekopf](https://sites.cs.ucsb.edu/~benh/) and [Jonathan Balkind](https://jbalkind.github.io/). I obtained my Bachelor degrees in Computer Science from Peking University and was lucky to work with Professor [Yingfei Xiong](https://xiongyingfei.github.io/) as a member of [PKU-PLL](https://pl.cs.pku.edu.cn/en/).
 
 My interests primarily lie in the areas of software engineering and programming languages. 
 At present, I am focused on utilizing these techniques to solve problems related to hardware design.
 
 <!-- My name is pronounced as [jin tow sshyah]. -->
 
+# Education
+<div class="education-list">
+  <div class="education-item">
+    <img class="education-logo" src="/images/ucsb.gif" alt="UC Santa Barbara logo">
+    <div class="education-copy">
+      <strong>University of California, Santa Barbara</strong><br>
+      Ph.D. in Computer Science, 2022-present<br>
+      Advisors: <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a> and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>
+    </div>
+  </div>
+
+  <div class="education-item">
+    <img class="education-logo" src="/images/pku.png" alt="Peking University logo">
+    <div class="education-copy">
+      <strong>Peking University</strong><br>
+      B.S. in Computer Science, 2018-2022<br>
+      Advisor: <a href="https://xiongyingfei.github.io/">Yingfei Xiong</a>
+    </div>
+  </div>
+</div>
+
 # Research
 **Fungible Memories for Automated Technology Mapping and Re-targeting** <br>
-Zachary D. Sisco, Sijie Kong, Daniel Ruelas-Petrisko, Jingtao Xia, Julian Springer, Varun Rao, Spencer Wang, Gus Henry Smith, Ben Hardekopf, Jonathan Balkind <br>
+Zachary D. Sisco, Sijie Kong, Daniel Ruelas-Petrisko, **Jingtao Xia**, Julian Springer, Varun Rao, Spencer Wang, Gus Henry Smith, Ben Hardekopf, Jonathan Balkind <br>
 *(To Appear) PLDI ’26* 
 
 **Improving Equality Saturation for EDA via Semantic E-Graphs** <br>
-Sijie Kong*, Jingtao Xia*, Daniel Ruelas-Petrisko, Zachary D. Sisco, Jonathan Balkind, Gus Henry Smith <br>
+Sijie Kong*, **Jingtao Xia***, Daniel Ruelas-Petrisko, Zachary D. Sisco, Jonathan Balkind, Gus Henry Smith <br>
 *(To Appear) PLDI ’26* 
 
 **[Implementing Cache Coherence with Coroutines: A Case Study](https://capra.cs.cornell.edu/latte26/paper/latte26-final12.pdf)** <br>
-Andrew David Alex, Jingtao Xia, Gus Henry Smith, Rachit Nigam, Jonathan Balkind, Gilbert Bernstein <br>
+Andrew David Alex, **Jingtao Xia**, Gus Henry Smith, Rachit Nigam, Jonathan Balkind, Gilbert Bernstein <br>
 *LATTE ’26*
 
 **[Unifying HLS and RTL with Timeline Types](https://capra.cs.cornell.edu/latte26/paper/latte26-final17.pdf)** <br>
-Jingtao Xia, Ayana Alemayehu, Sijie Kong, Ben Hardekopf, Rachit Nigam, Jonathan Balkind <br>
+**Jingtao Xia**, Ayana Alemayehu, Sijie Kong, Ben Hardekopf, Rachit Nigam, Jonathan Balkind <br>
 *LATTE ’26*
 
 **[Refinement Types for Visualization](https://dl.acm.org/doi/10.1145/3691620.3695550)** <br>
-Jingtao Xia, Junrui Liu, Nicholas Brown, Yanju Chen, Yu Feng <br>
+**Jingtao Xia**, Junrui Liu, Nicholas Brown, Yanju Chen, Yu Feng <br>
 *ASE'24*
 
 **[There and Back Again: A Netlist's Tale with Much Egraphin'](https://capra.cs.cornell.edu/latte24/paper/8.pdf)** <br>
-Gus Henry Smith, Zachary D Sisco, Thanawat Techaumnuaiwit, Jingtao Xia, Vishal Canumalla, Andrew Cheung, Zachary Tatlock, Chandrakana Nandi, Jonathan Balkind 
+Gus Henry Smith, Zachary D Sisco, Thanawat Techaumnuaiwit, **Jingtao Xia**, Vishal Canumalla, Andrew Cheung, Zachary Tatlock, Chandrakana Nandi, Jonathan Balkind 
 <br>
 *LATTE ’24*
 
 
 **[ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers](https://arxiv.org/pdf/2305.14591.pdf)** <br>
-Kexun Zhang, Danqing Wang, Jingtao Xia, William Yang Wang, Lei Li
+Kexun Zhang, Danqing Wang, **Jingtao Xia**, William Yang Wang, Lei Li
  <br>
 *NeurIPS 2023* <a href="https://github.com/zkx06111/ALGO" title="Source code"><i class="fab fa-github"></i></a>
 
 
 **[Generalizable Synthesis Through Unification.](http://jingtaox.github.io/files/OOPSLA21.pdf)** <br>
-Ruyi Ji, Jingtao Xia, Yingfei Xiong, Zhenjiang Hu. <br>
+Ruyi Ji, **Jingtao Xia**, Yingfei Xiong, Zhenjiang Hu. <br>
 *OOPSLA 2021* <a href="https://github.com/jiry17/PolyGen" title="Source code"><i class="fab fa-github"></i></a>
 
 # Teaching

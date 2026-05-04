@@ -100,6 +100,28 @@
     font-size: $type-size-6;
   }
 
+  .education-list {
+    margin: 0 0 1.5em;
+  }
+
+  .education-item {
+    display: grid;
+    grid-template-columns: 4.75rem minmax(0, 1fr);
+    gap: 0.9rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .education-logo {
+    max-width: 4.75rem;
+    max-height: 3.75rem;
+    object-fit: contain;
+  }
+
+  .education-copy {
+    min-width: 0;
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
