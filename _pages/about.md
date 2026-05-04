@@ -21,18 +21,18 @@ At present, I am focused on utilizing these techniques to solve problems related
   <div class="education-item">
     <img class="education-logo" src="/images/ucsb.gif" alt="UC Santa Barbara logo">
     <div class="education-copy">
-      <strong>University of California, Santa Barbara</strong><br>
-      Ph.D. in Computer Science, 2022-present<br>
-      Advisors: <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a> and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>
+      <div class="education-degree">Ph.D., Computer Science</div>
+      <div class="education-school">University of California, Santa Barbara</div>
+      <div class="education-advisor">Advisors: <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a> and <a href="https://jbalkind.github.io/">Jonathan Balkind</a></div>
     </div>
   </div>
 
   <div class="education-item">
     <img class="education-logo" src="/images/pku.png" alt="Peking University logo">
     <div class="education-copy">
-      <strong>Peking University</strong><br>
-      B.S. in Computer Science, 2018-2022<br>
-      Advisor: <a href="https://xiongyingfei.github.io/">Yingfei Xiong</a>
+      <div class="education-degree">B.S., Computer Science</div>
+      <div class="education-school">Peking University</div>
+      <div class="education-advisor">Advisor: <a href="https://xiongyingfei.github.io/">Yingfei Xiong</a></div>
     </div>
   </div>
 </div>
@@ -75,8 +75,8 @@ Ruyi Ji, **Jingtao Xia**, Yingfei Xiong, Zhenjiang Hu. <br>
 *OOPSLA 2021* <a href="https://github.com/jiry17/PolyGen" title="Source code"><i class="fab fa-github"></i></a>
 
 # Teaching
-* CS32: Object-Oriented Design (Fall'24)
-* CS138: Automata and Formal Languages (Spring'24)
+* CS32: Object-Oriented Design (Fall'24, Winter'26, Spring'26)
+* CS138: Automata and Formal Languages (Spring'24, [Fall'25](https://sites.cs.ucsb.edu/~bultan/courses/138/))
 * CS9: Intermediate Python ([Fall'23](https://ucsb-cs9.github.io/f23/), [Winter'24](https://ucsb-cs9.github.io/w24/))
 * CS160: Translation of Computer Programs ([Spring'23](https://github.com/fredfeng/CS160/))
 * CS162:  Programming Languages ([Winter'23](https://github.com/fredfeng/CS162/tree/winter-2022))
