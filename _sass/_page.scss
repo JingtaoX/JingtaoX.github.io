@@ -49,7 +49,7 @@
   margin: 0 0 2.25rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: minmax(0, 1fr) minmax(11rem, 24%);
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 32%);
   }
 }
 
@@ -132,16 +132,17 @@
     grid-column: 2;
     grid-row: 1;
     justify-self: end;
-    width: min(100%, 13rem);
+    width: min(100%, 22rem);
   }
 
   img,
   video {
     display: block;
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 50%;
+    height: auto;
+    max-height: 20rem;
+    object-fit: contain;
+    border-radius: 8px;
   }
 }
 
@@ -195,10 +196,12 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid mix(#fff, $link-color, 62%);
 
     &:hover {
-      text-decoration: underline;
+      color: $link-color-hover;
+      border-bottom-color: $link-color-hover;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
