@@ -109,6 +109,10 @@
   }
 }
 
+.publication-status {
+  margin-right: 0.3rem;
+}
+
 .publication-note {
   margin-top: 0.15rem;
   color: mix(#fff, $text-color, 25%);
@@ -117,7 +121,7 @@
 
 .venue-tooltip {
   position: relative;
-  border-bottom: 1px dotted mix(#fff, $text-color, 25%);
+  border-bottom: 0;
   cursor: help;
 }
 

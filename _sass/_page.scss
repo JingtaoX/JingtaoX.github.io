@@ -5,6 +5,7 @@
 #main {
   @include container;
   @include clearfix;
+  max-width: 1180px;
   margin-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
@@ -12,7 +13,7 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 1180px;
   }
 }
 
@@ -85,31 +86,6 @@
   font-family: $sans-serif;
   font-size: $type-size-5;
   line-height: 1.45;
-}
-
-.home-intro__details {
-  display: grid;
-  gap: 0.55rem;
-  margin: 0.95rem 0 0.9rem;
-
-  div {
-    display: grid;
-    grid-template-columns: 6.8rem minmax(0, 1fr);
-    gap: 0.9rem;
-    align-items: baseline;
-  }
-
-  dt {
-    color: mix(#fff, $text-color, 15%);
-    font-family: $sans-serif;
-    font-weight: 400;
-    white-space: nowrap;
-  }
-
-  dd {
-    margin: 0;
-    font-family: $sans-serif;
-  }
 }
 
 .home-intro__links {
@@ -197,11 +173,11 @@
 
   a {
     text-decoration: none;
-    border-bottom: 1px solid mix(#fff, $link-color, 62%);
+    border-bottom: 0;
 
     &:hover {
       color: $link-color-hover;
-      border-bottom-color: $link-color-hover;
+      border-bottom: 0;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
