@@ -39,3 +39,35 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.abstract-toggle {
+  margin-top: 0.25em;
+
+  summary {
+    cursor: pointer;
+    display: inline-block;
+    color: $link-color;
+
+    &::marker {
+      content: "";
+    }
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  .abstract-open {
+    display: none;
+  }
+
+  &[open] {
+    .abstract-closed {
+      display: none;
+    }
+
+    .abstract-open {
+      display: inline;
+    }
+  }
+}
