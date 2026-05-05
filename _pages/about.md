@@ -2,17 +2,90 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# About me
-I am a 4-th year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor [Ben Hardekopf](https://sites.cs.ucsb.edu/~benh/) and [Jonathan Balkind](https://jbalkind.github.io/). I obtained my Bachelor degrees in Computer Science from Peking University and was lucky to work with Professor [Yingfei Xiong](https://xiongyingfei.github.io/) as a member of [PKU-PLL](https://pl.cs.pku.edu.cn/en/).
+<div class="home-intro">
+  <figure class="home-intro__figure">
+    <img id="home-profile-media" src="/images/profile.png" alt="Jingtao Xia">
+  </figure>
 
-My interests primarily lie in the areas of software engineering and programming languages. 
-At present, I am focused on utilizing these techniques to solve problems related to hardware design.
+  <div class="home-intro__identity">
+    <h1>Jingtao Xia <span>夏景涛</span></h1>
+    <p class="home-intro__role">Ph.D. Student</p>
+    <p class="home-intro__affiliation">
+      <a href="https://www.cs.ucsb.edu/">Department of Computer Science</a><br>
+      <a href="https://www.ucsb.edu/">University of California, Santa Barbara</a>
+    </p>
+
+    <dl class="home-intro__details">
+      <div>
+        <dt><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Location:</dt>
+        <dd>Santa Barbara, CA</dd>
+      </div>
+      <div>
+        <dt><i class="fas fa-envelope" aria-hidden="true"></i> Email:</dt>
+        <dd>jingtaoxia@ucsb.edu</dd>
+      </div>
+    </dl>
+
+    <div class="home-intro__links">
+      <a href="https://github.com/JingtaoX"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/jingtao-xia"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=ZhTN_5cAAAAJ&hl=en"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>
+      <a href="https://orcid.org/0009-0007-3509-4018"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
+    </div>
+  </div>
+
+  <div class="home-intro__bio">
+    <p>I am a 4-th year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a> and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>. I obtained my Bachelor degrees in Computer Science from Peking University and was lucky to work with Professor <a href="https://xiongyingfei.github.io/">Yingfei Xiong</a> as a member of <a href="https://pl.cs.pku.edu.cn/en/">PKU-PLL</a>.</p>
+
+    <p>My interests primarily lie in the areas of software engineering and programming languages. At present, I am focused on utilizing these techniques to solve problems related to hardware design.</p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var media = document.getElementById("home-profile-media");
+    if (!media) {
+      return;
+    }
+
+    var profileMedia = [
+      {% for file in site.static_files %}
+        {% assign ext = file.extname | downcase %}
+        {% if file.path contains '/images/profiles/' %}
+          {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.gif' or ext == '.webp' or ext == '.mp4' or ext == '.webm' %}
+            { src: "{{ file.path | prepend: base_path }}", ext: "{{ ext }}" },
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    ];
+
+    if (profileMedia.length === 0) {
+      return;
+    }
+
+    var choice = profileMedia[Math.floor(Math.random() * profileMedia.length)];
+    if (choice.ext === ".mp4" || choice.ext === ".webm") {
+      var video = document.createElement("video");
+      video.id = media.id;
+      video.className = media.className;
+      video.autoplay = true;
+      video.muted = true;
+      video.loop = true;
+      video.playsInline = true;
+      video.setAttribute("aria-label", media.alt);
+      video.src = choice.src;
+      media.replaceWith(video);
+    } else {
+      media.src = choice.src;
+    }
+  }());
+</script>
 
 <!-- My name is pronounced as [jin tow sshyah]. -->
 

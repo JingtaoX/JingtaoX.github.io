@@ -34,6 +34,115 @@
   }
 }
 
+.page--wide {
+  @include breakpoint($large) {
+    @include span(12 of 12);
+    @include prefix(0);
+    @include suffix(0);
+  }
+}
+
+.home-intro {
+  display: grid;
+  gap: 1.75rem 3.25rem;
+  align-items: center;
+  margin: 0 0 2.25rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(260px, 34%) minmax(0, 1fr);
+  }
+}
+
+.home-intro__identity {
+  min-width: 0;
+
+  h1 {
+    margin: 0 0 0.45em;
+    font-size: $type-size-1;
+    line-height: 1.1;
+
+    span {
+      margin-left: 0.6rem;
+      color: mix(#000, $text-color, 10%);
+      white-space: nowrap;
+    }
+  }
+}
+
+.home-intro__role {
+  margin: 0 0 0.2em;
+  font-family: $sans-serif;
+  font-size: $type-size-4;
+}
+
+.home-intro__affiliation {
+  margin: 0.1em 0 0.9em;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
+  line-height: 1.45;
+}
+
+.home-intro__details {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0.95rem 0 0.9rem;
+
+  div {
+    display: grid;
+    grid-template-columns: 6.8rem minmax(0, 1fr);
+    gap: 0.9rem;
+    align-items: baseline;
+  }
+
+  dt {
+    color: mix(#fff, $text-color, 15%);
+    font-family: $sans-serif;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  dd {
+    margin: 0;
+    font-family: $sans-serif;
+  }
+}
+
+.home-intro__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.55rem;
+  font-family: $sans-serif;
+
+  a + a::before {
+    content: "/";
+    margin-right: 0.55rem;
+    color: mix(#fff, $text-color, 45%);
+  }
+}
+
+.home-intro__figure {
+  margin: 0;
+
+  img,
+  video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+}
+
+.home-intro__bio {
+  @include breakpoint($medium) {
+    grid-column: 1 / -1;
+  }
+
+  p {
+    font-size: $type-size-5;
+    line-height: 1.6;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -109,7 +218,15 @@
     grid-template-columns: 3.4rem minmax(0, 1fr);
     gap: 1rem;
     align-items: center;
-    margin-bottom: 1.35rem;
+    padding-bottom: 1.1rem;
+    margin-bottom: 1.1rem;
+    border-bottom: 1px solid mix(#fff, $border-color, 35%);
+  }
+
+  .education-item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .education-logo {
@@ -136,7 +253,6 @@
 
   .education-year {
     color: mix(#fff, $text-color, 25%);
-    font-size: $type-size-6;
     white-space: nowrap;
   }
 
