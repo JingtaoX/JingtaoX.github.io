@@ -49,12 +49,17 @@
   margin: 0 0 2.25rem;
 
   @include breakpoint($medium) {
-    grid-template-columns: minmax(260px, 34%) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(11rem, 24%);
   }
 }
 
 .home-intro__identity {
   min-width: 0;
+
+  @include breakpoint($medium) {
+    grid-column: 1;
+    grid-row: 1;
+  }
 
   h1 {
     margin: 0 0 0.45em;
@@ -123,12 +128,20 @@
 .home-intro__figure {
   margin: 0;
 
+  @include breakpoint($medium) {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    width: min(100%, 13rem);
+  }
+
   img,
   video {
     display: block;
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    border-radius: 50%;
   }
 }
 
