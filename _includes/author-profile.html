@@ -10,9 +10,33 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+    	<img id="author-avatar" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
+
+  <script>
+    (function () {
+      var avatar = document.getElementById("author-avatar");
+      if (!avatar) {
+        return;
+      }
+
+      var profileImages = [
+        {% for file in site.static_files %}
+          {% assign ext = file.extname | downcase %}
+          {% if file.path contains '/images/profiles/' %}
+            {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.gif' or ext == '.webp' %}
+              "{{ file.path | prepend: base_path }}",
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      ];
+
+      if (profileImages.length > 0) {
+        avatar.src = profileImages[Math.floor(Math.random() * profileImages.length)];
+      }
+    }());
+  </script>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>

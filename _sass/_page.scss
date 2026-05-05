@@ -123,8 +123,21 @@
     line-height: 1.45;
   }
 
+  .education-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1rem;
+    align-items: baseline;
+  }
+
   .education-degree {
     font-weight: 700;
+  }
+
+  .education-year {
+    color: mix(#fff, $text-color, 25%);
+    font-size: $type-size-6;
+    white-space: nowrap;
   }
 
   .education-school,

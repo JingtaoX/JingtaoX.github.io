@@ -41,33 +41,14 @@
 @import "print";
 
 .abstract-toggle {
-  margin-top: 0.25em;
+  margin: 0.1em 0 1.25em;
+  color: mix(#fff, $text-color, 15%);
+  font-size: $type-size-6;
+  line-height: 1.45;
 
   summary {
     cursor: pointer;
-    display: inline-block;
-    color: $link-color;
-
-    &::marker {
-      content: "";
-    }
-
-    &::-webkit-details-marker {
-      display: none;
-    }
-  }
-
-  .abstract-open {
-    display: none;
-  }
-
-  &[open] {
-    .abstract-closed {
-      display: none;
-    }
-
-    .abstract-open {
-      display: inline;
-    }
+    color: mix(#fff, $text-color, 25%);
+    line-height: 1.25;
   }
 }
