@@ -209,11 +209,16 @@ Large language models (LLMs) excel at implementing code from functionality descr
 </div>
 
 # Teaching
-* CS32: Object-Oriented Design (Fall'24, Winter'26, Spring'26)
-* CS138: Automata and Formal Languages (Spring'24, [Fall'25](https://sites.cs.ucsb.edu/~bultan/courses/138/))
-* CS9: Intermediate Python ([Fall'23](https://ucsb-cs9.github.io/f23/), [Winter'24](https://ucsb-cs9.github.io/w24/))
-* CS160: Translation of Computer Programs ([Spring'23](https://github.com/fredfeng/CS160/))
-* CS162:  Programming Languages ([Winter'23](https://github.com/fredfeng/CS162/tree/winter-2022))
+
+**Teaching Assistant**
+* CMPSC 32: Object-Oriented Design (Fall'24, Winter'26, Spring'26)
+* CMPSC 138: Automata and Formal Languages (Spring'24, [Fall'25](https://sites.cs.ucsb.edu/~bultan/courses/138/))
+* CMPSC 9: Intermediate Python ([Fall'23](https://ucsb-cs9.github.io/f23/), [Winter'24](https://ucsb-cs9.github.io/w24/))
+* CMPSC 160: Translation of Computer Programs ([Spring'23](https://github.com/fredfeng/CS160/))
+* CMPSC 162: Programming Languages ([Winter'23](https://github.com/fredfeng/CS162/tree/winter-2022))
+
+**Guest Lecture**
+* [CMPTGCS 130E: Computation via Types, Logic, and Topology](https://ccs.ucsb.edu/courses/2026/spring/computation-types-logic-and-topology) (Spring'26): "Programs as Geometry(Polyhedral Compilation)"
 
 
 # Service
