@@ -32,7 +32,7 @@ redirect_from:
   <div class="home-intro__bio">
     <p>I am a fourth-year PhD student in the Computer Science department at UC Santa Barbara. I am fortunate to be advised by Professor <a href="https://sites.cs.ucsb.edu/~benh/">Ben Hardekopf</a> and <a href="https://jbalkind.github.io/">Jonathan Balkind</a>.</p>
 
-    <p>My interests primarily lie in the areas of software engineering and programming languages. At present, I am focused on utilizing these techniques to solve problems related to hardware design.</p>
+    <p>My interests lie primarily in programming languages and software engineering. I am currently focused on applying these techniques to computer architecture and hardware/software co-design, along two directions: designing languages with better abstractions for hardware, and improving hardware compilation and synthesis with software techniques.</p>
   </div>
 </div>
 
@@ -112,7 +112,7 @@ redirect_from:
   <div class="publication-title">Fungible Memories for Automated Technology Mapping and Re-targeting</div>
   <div class="publication-authors">Zachary D. Sisco, Sijie Kong, Daniel Ruelas-Petrisko, <strong>Jingtao Xia</strong>, Julian Springer, Varun Rao, Spencer Wang, Gus Henry Smith, Ben Hardekopf, Jonathan Balkind</div>
   <div class="publication-meta">
-    <span class="publication-meta-item"><span class="publication-status">(To Appear)</span> <span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
+    <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
   </div>
 </div>
 
@@ -120,7 +120,7 @@ redirect_from:
   <div class="publication-title">Improving Equality Saturation for EDA via Semantic E-Graphs</div>
   <div class="publication-authors">Sijie Kong*, <strong>Jingtao Xia</strong>*, Daniel Ruelas-Petrisko, Zachary D. Sisco, Jonathan Balkind, Gus Henry Smith</div>
   <div class="publication-meta">
-    <span class="publication-meta-item"><span class="publication-status">(To Appear)</span> <span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
+    <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
   </div>
   <div class="publication-note">* Equal contribution</div>
 </div>
