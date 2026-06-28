@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Skill(fewer-permission-prompts)",
-      "Skill(fewer-permission-prompts:*)"
+      "Skill(fewer-permission-prompts:*)",
+      "Bash(curl -sL -o algo-neurips23.pdf \"https://arxiv.org/pdf/2305.14591.pdf\")",
+      "Bash(curl -sL -o coroutine-latte26.pdf \"https://capra.cs.cornell.edu/latte26/paper/latte26-final12.pdf\")",
+      "Bash(curl -sL -o unify-latte26.pdf \"https://capra.cs.cornell.edu/latte26/paper/latte26-final17.pdf\")",
+      "Bash(curl -sL -o netlist-latte24.pdf \"https://capra.cs.cornell.edu/latte24/paper/8.pdf\")",
+      "Bash(pdfinfo *)",
+      "Bash(pdftotext *)"
     ]
   }
 }

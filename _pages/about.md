@@ -123,7 +123,7 @@ redirect_from:
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
     <span class="publication-meta-item"><a href="/files/nextmap-pldi26.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
-    <span class="publication-meta-item"><a href="/files/nextmap-talk.pdf" title="Slides"><i class="fas fa-file-powerpoint"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/nextmap-talk.pdf" title="Slides"><i class="fas fa-desktop"></i></a></span>
     <span class="publication-meta-item"><a href="https://github.com/UCSBarchlab/nextmap" title="Source code"><i class="fab fa-github"></i></a></span>
   </div>
   <div class="publication-note">* Equal contribution</div>
@@ -148,7 +148,7 @@ We have implemented the proposed approach in a tool called Calico and evaluated 
   <div class="publication-authors">Kexun Zhang, Danqing Wang, <strong>Jingtao Xia</strong>, William Yang Wang, Lei Li</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Conference on Neural Information Processing Systems">NeurIPS</span> 2023</span>
-    <span class="publication-meta-item"><a href="https://arxiv.org/pdf/2305.14591.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/algo-neurips23.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
     <span class="publication-meta-item"><a href="https://github.com/zkx06111/ALGO" title="Source code"><i class="fab fa-github"></i></a></span>
   </div>
   <details class="abstract-toggle">
@@ -162,7 +162,7 @@ Large language models (LLMs) excel at implementing code from functionality descr
   <div class="publication-authors">Ruyi Ji, <strong>Jingtao Xia</strong>, Yingfei Xiong, Zhenjiang Hu.</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications">OOPSLA</span> 2021</span>
-    <span class="publication-meta-item"><a href="http://jingtaox.github.io/files/OOPSLA21.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/polygen-oopsla21.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
     <span class="publication-meta-item"><a href="https://github.com/jiry17/PolyGen" title="Source code"><i class="fab fa-github"></i></a></span>
   </div>
   <details class="abstract-toggle">
@@ -178,7 +178,7 @@ Large language models (LLMs) excel at implementing code from functionality descr
   <div class="publication-authors">Andrew David Alex, <strong>Jingtao Xia</strong>, Gus Henry Smith, Rachit Nigam, Jonathan Balkind, Gilbert Bernstein</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Workshop on Languages, Tools, and Techniques for Accelerator Design">LATTE</span> ’26</span>
-    <span class="publication-meta-item"><a href="https://capra.cs.cornell.edu/latte26/paper/latte26-final12.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/coroutine-latte26.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
   </div>
   <details class="abstract-toggle">
     <summary>Abstract</summary>
@@ -191,8 +191,8 @@ Large language models (LLMs) excel at implementing code from functionality descr
   <div class="publication-authors"><strong>Jingtao Xia</strong>, Ayana Alemayehu, Sijie Kong, Ben Hardekopf, Rachit Nigam, Jonathan Balkind</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Workshop on Languages, Tools, and Techniques for Accelerator Design">LATTE</span> ’26</span>
-    <span class="publication-meta-item"><a href="https://capra.cs.cornell.edu/latte26/paper/latte26-final17.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
-    <span class="publication-meta-item"><a href="/files/unify-latte26-talk.pdf" title="Slides"><i class="fas fa-file-powerpoint"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/unify-latte26.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/unify-latte26-talk.pdf" title="Slides"><i class="fas fa-desktop"></i></a></span>
   </div>
   <details class="abstract-toggle">
     <summary>Abstract</summary>
@@ -205,7 +205,7 @@ Large language models (LLMs) excel at implementing code from functionality descr
   <div class="publication-authors">Gus Henry Smith, Zachary D Sisco, Thanawat Techaumnuaiwit, <strong>Jingtao Xia</strong>, Vishal Canumalla, Andrew Cheung, Zachary Tatlock, Chandrakana Nandi, Jonathan Balkind</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Workshop on Languages, Tools, and Techniques for Accelerator Design">LATTE</span> ’24</span>
-    <span class="publication-meta-item"><a href="https://capra.cs.cornell.edu/latte24/paper/8.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/netlist-latte24.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
   </div>
   <details class="abstract-toggle">
     <summary>Abstract</summary>
