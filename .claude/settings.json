@@ -8,7 +8,8 @@
       "Bash(curl -sL -o unify-latte26.pdf \"https://capra.cs.cornell.edu/latte26/paper/latte26-final17.pdf\")",
       "Bash(curl -sL -o netlist-latte24.pdf \"https://capra.cs.cornell.edu/latte24/paper/8.pdf\")",
       "Bash(pdfinfo *)",
-      "Bash(pdftotext *)"
+      "Bash(pdftotext *)",
+      "Bash(pdftotext -f 1 -l 1 nextmap-camera-ready.pdf -)"
     ]
   }
 }
