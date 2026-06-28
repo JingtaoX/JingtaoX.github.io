@@ -113,6 +113,7 @@ redirect_from:
   <div class="publication-authors">Zachary D. Sisco, Sijie Kong, Daniel Ruelas-Petrisko, <strong>Jingtao Xia</strong>, Julian Springer, Varun Rao, Spencer Wang, Gus Henry Smith, Ben Hardekopf, Jonathan Balkind</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
+    <span class="publication-meta-item"><a href="/files/memo-pldi26.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
   </div>
 </div>
 
@@ -121,6 +122,9 @@ redirect_from:
   <div class="publication-authors">Sijie Kong*, <strong>Jingtao Xia</strong>*, Daniel Ruelas-Petrisko, Zachary D. Sisco, Jonathan Balkind, Gus Henry Smith</div>
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN Conference on Programming Language Design and Implementation">PLDI</span> ’26</span>
+    <span class="publication-meta-item"><a href="/files/nextmap-pldi26.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/nextmap-talk.pdf" title="Slides"><i class="fas fa-file-powerpoint"></i></a></span>
+    <span class="publication-meta-item"><a href="https://github.com/UCSBarchlab/nextmap" title="Source code"><i class="fab fa-github"></i></a></span>
   </div>
   <div class="publication-note">* Equal contribution</div>
 </div>
@@ -188,6 +192,7 @@ Large language models (LLMs) excel at implementing code from functionality descr
   <div class="publication-meta">
     <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Workshop on Languages, Tools, and Techniques for Accelerator Design">LATTE</span> ’26</span>
     <span class="publication-meta-item"><a href="https://capra.cs.cornell.edu/latte26/paper/latte26-final17.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
+    <span class="publication-meta-item"><a href="/files/unify-latte26-talk.pdf" title="Slides"><i class="fas fa-file-powerpoint"></i></a></span>
   </div>
   <details class="abstract-toggle">
     <summary>Abstract</summary>
