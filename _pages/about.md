@@ -151,7 +151,7 @@ We have implemented the proposed approach in a tool called Calico and evaluated 
   <div class="publication-title">ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers</div>
   <div class="publication-authors">Kexun Zhang, Danqing Wang, <strong>Jingtao Xia</strong>, William Yang Wang, Lei Li</div>
   <div class="publication-meta">
-    <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Conference on Neural Information Processing Systems">NeurIPS</span> 2023</span>
+    <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="Conference on Neural Information Processing Systems">NeurIPS</span> ’23</span>
     <span class="publication-meta-item"><a href="/files/algo-neurips23.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
     <span class="publication-meta-item"><a href="https://github.com/zkx06111/ALGO" title="Source code"><i class="fab fa-github"></i></a></span>
   </div>
@@ -165,7 +165,7 @@ Large language models (LLMs) excel at implementing code from functionality descr
   <div class="publication-title">Generalizable Synthesis Through Unification.</div>
   <div class="publication-authors">Ruyi Ji, <strong>Jingtao Xia</strong>, Yingfei Xiong, Zhenjiang Hu.</div>
   <div class="publication-meta">
-    <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications">OOPSLA</span> 2021</span>
+    <span class="publication-meta-item"><span class="venue-tooltip" data-tooltip="ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications">OOPSLA</span> ’21</span>
     <span class="publication-meta-item"><a href="/files/polygen-oopsla21.pdf" title="Paper"><i class="fas fa-file-pdf"></i></a></span>
     <span class="publication-meta-item"><a href="https://github.com/jiry17/PolyGen" title="Source code"><i class="fab fa-github"></i></a></span>
   </div>
